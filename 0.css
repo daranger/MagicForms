@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+label, button[type=submit] {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+body {
+    background-color: #f6f8ff;
+}
+
+input {
+    height: 40px;
+    border-radius: 4px;
+    border-width: thin;
+    font-size: large;
+    border-color: #092327;
+    padding-left: 10px;
+}
+
+header {
+    background-color: #092327;
+    color: #fff;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    width: 60vw;
+    font-size: large;
+}
+
+nav > a {
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+nav > a:visited {
+    color: #fff;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    width: 60vw;
+}
+
+.submit-history-card {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    width: 60vw;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 4px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0 2px 8px 0;
+}
+
+p{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.form-submit {
+    background-color: #092327;
+    color: #fff;
+    border: none;
+    width: 120px;
+    height: 35px;
+    align-self: center;
+    border-radius: 4px;
+}
+
+.delete-button {
+    background-color: #6e2323;
+    color: #fff;
+    border: none;
+    width: 120px;
+    height: 35px;
+    align-self: center;
+    border-radius: 4px
+}
+
+
+.form-submit:hover, .delete-button:hover {
+    cursor: pointer;
+    opacity: .8;
+}
